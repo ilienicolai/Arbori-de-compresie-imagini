@@ -1,0 +1,1195 @@
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9BF: decmp (task3.c:71)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9DD: decmp (task3.c:71)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9F4: decmp (task3.c:72)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10AA12: decmp (task3.c:72)
+==10322==    by 0x10A942: decmp (task3.c:63)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA3D: decmp (task3.c:68)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Conditional jump or move depends on uninitialised value(s)
+==10322==    at 0x10AA26: decmp (task3.c:69)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A98C: decmp (task3.c:70)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== Use of uninitialised value of size 8
+==10322==    at 0x10A9A9: decmp (task3.c:70)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A919: decmp (task3.c:62)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8E9: decmp (task3.c:61)
+==10322==    by 0x10A8BE: decmp (task3.c:60)
+==10322==    by 0x109751: main (main.c:88)
+==10322==  Uninitialised value was created by a stack allocation
+==10322==    at 0x1092B1: main (main.c:4)
+==10322== 
+==10322== 
+==10322== More than 100 errors detected.  Subsequent errors
+==10322== will still be recorded, but in less detail than before.

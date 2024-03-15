@@ -1,0 +1,72 @@
+// NICOLAI Ilie - 313CB
+
+CERINTELE 1 si 2 :
+    Algoritmul proiectat memoreaza imaginea printr-o structura de tipul TImg,
+ce contine imaginea propriu-zisa, stocata ca o matrice de structuri de tipul TPixel,
+cu 3 campuri de tipul unsigned char (R, G, B); factorul furnizat si dimensinea imaginii.
+Programul citeste din fisierul de intrare dimensiunea imaginii (sarind peste celelalte
+date: tipul fisierului si dimensiunea maxima a unei culori), apoi aloca imaginea cu
+ajutorul functiei aloc_img() si o citeste in functia build_img(). Apoi este construit
+arborele de compresie utilizandu-se parcurgerea in adancime cu ajutorul functiei
+build_arb(). Dupa ce a fost construit arborele, este parcurs in latime (pe niveluri),
+memorandu-i-se nodurile intr-o lista simplu inlantuita de tipul TLista. Aceasta are
+in componenta un camp ce memoreaza nodul arborelui si un camp ce memoreaza nivelul
+nodului.
+    Pentru cerinta 1 am determinat numarul de niveluri ale arborelui in functia
+niveluri(); numarul de frunze cu ajutorul functiei nr_frunze() iar suprafata cu
+dimensiunea cea mai mare nedivizata o determin prin gasirea primei frunzei de pe nivelul
+cel mai mic, prin parcurgeara listei de noduri pana la prima frunza apoi impartind repetat
+dimensiunea la numarul nivelului.
+    Pentru cerinta 2 am parcurs lista de noduri a arborelui (L) prin intermediul functiei
+cerinta2() in care am verificat tipul fiecarui nod si afisand in fisierul de iesire 
+valorile corespunzatoare.
+
+CERINTA 3
+    Programul aloca, im mod asemanator cerintelor anterioare, imaginea si o lista simplu
+inlantuita ce stocheaza nodurile arbiorelui ce va fi construit. Cu ajutorul functiei
+build_arb_lista() este construita lista de noduri a arborelui si in acelasi timp este
+memorat si arborele cu legaturile intre noduri. Apoi functia decmp() parcurge DFS arborele
+si construieste imaginea. La final este construit fisierul decomprimat prin afisarea
+datelor corespunzatoare.
+
+DESCRIEREA FUNCTIILOR PRINCIPALE
+- unsigned int buildnum(char factor[]);
+        Primeste ca parametru sirul de caractere ce reprezinta factorul si returneaza numarul
+    construit ca unsigned int.
+- void build_arb(TArb A, TImg pic, int x, int y, int dim);
+        Primeste ca parametrii un nod de arbore, imaginea, coordonatele de inceput a zonei si
+    dimensiunea zonei de verificat. Zona este verificata de functia verif_area() ce intoarce
+    1 daca zona trebuie divizata si 0 in caz contrar. Daca zona trebuie divizata se aloca
+    cei patru fii ai nodului si se trece la urmatorul nod, arborele fiid construit dupa modelul
+    parcurgerii in adancime. Fiecare nod memoreaza culoarea medie a zonei pe care o reprezinta.
+- int verif_area(TImg pic, unsigned char *R, unsigned char *G, unsigned char *B, int x, int y, int dim)
+        Functia primeste ca parametrii o imagine, 3 pointeri de tip unsigned char prin care intoarce
+    culoarea medie a zonei, coordonatele de inceput ale zonei (x, y), si dimensiunea zonei. Algoritmul
+    functiei calculeaza mediile cerute si returneaza 1 daca zona trebuie divizata si 0 in caz contrar.
+- void constr_bfs(TArb A, TLista L, TLista ultim)
+        Primeste ca parametrii arborele (A), lista simplu inlantuita (L), si ultimul element din lista.
+    Parcurge in latime arborele si memoreaza nodurile in lista.
+- TArb aloc_frunza()
+        Aloca un nod din arbore si il returneaza.
+- TLista aloc_lista2(TArb A, int niv)
+        Primeste ca parametrii un nod din arbore si nivelul sau. Aloca un element de lista si il
+    returneaza.
+- void build_arb_lista(TLista L, TLista ultim, FILE *fin)
+        Primeste ca parametrii o coada (memorata ca lista simplu inlantuita: L), ultimul element din
+    coada si fisierul de intrare. Algoritmul citeste din fisier valorile si adauga in coada nodurile
+    arborelui efectuand in acelasi timp si legaturile intre nodurile arborelui.
+-  void decmp(TArb A, TPixel *img, int x, int y, unsigned int dim)
+        Primeste ca parametrii arborele imaginea, coordonatele de inceput ale zonei din imagine si
+    dimensiunea zonei. Algoritmul parcurge in adancime arborele si pune in imagine culorile 
+    corespuzatoare.
+
+La cerinta 3 memoria este eliberata dar valgrind sesizeaza erori de tipul (in functia decmp() la recursie):
+- Uninitialised value was created by a stack allocation
+- Conditional jump or move depends on uninitialised value(s)
+
+Punctaj local:
+Cerinta 1 : 20
+Cerinta 2 : 30.0
+Cerinta 3 : 30.0
+Total     : 80.0
+Bonus     : 8.0
