@@ -57,14 +57,3 @@ DESCRIEREA FUNCTIILOR PRINCIPALE
         Primeste ca parametrii arborele imaginea, coordonatele de inceput ale zonei din imagine si
     dimensiunea zonei. Algoritmul parcurge in adancime arborele si pune in imagine culorile 
     corespuzatoare.
-
-La cerinta 3 memoria este eliberata dar valgrind sesizeaza erori de tipul (in functia decmp() la recursie):
-- Uninitialised value was created by a stack allocation
-- Conditional jump or move depends on uninitialised value(s)
-
-Punctaj local:
-Cerinta 1 : 20
-Cerinta 2 : 30.0
-Cerinta 3 : 30.0
-Total     : 80.0
-Bonus     : 8.0
