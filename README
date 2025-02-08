@@ -1,5 +1,3 @@
-// NICOLAI Ilie - 313CB
-
 CERINTELE 1 si 2 :
     Algoritmul proiectat memoreaza imaginea printr-o structura de tipul TImg,
 ce contine imaginea propriu-zisa, stocata ca o matrice de structuri de tipul TPixel,
